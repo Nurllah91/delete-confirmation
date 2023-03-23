@@ -5,6 +5,7 @@ const inputField = document.getElementById("input-field")
 document.getElementById("input-field").addEventListener("keyup", function (event){
    if(event.target.value === "Delete"){
     deleteBtn.removeAttribute("disabled");
+    alert('Hello Mister/Mis Your Delete button is enabled now');
    }
    else{
     deleteBtn.setAttribute("disabled", true)
