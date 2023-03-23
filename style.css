@@ -24,6 +24,7 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
+    margin: 30px;
 }
 .btn:hover{
     background-color: orange;
